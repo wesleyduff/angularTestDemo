@@ -1,6 +1,6 @@
 app
 
-.controller("MainController", ['$scope', function($scope){
+.controller("MainController", ['$scope', 'userGen', function($scope, userGen){
     $scope.expenses = [
         
         {

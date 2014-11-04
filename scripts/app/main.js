@@ -1,4 +1,4 @@
-var app = angular.module("main", []);
+var app = angular.module("main", ['sub']);
 
 function Expense(expenseItem) { 
     this.expenseItem = expenseItem;
